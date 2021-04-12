@@ -1,3 +1,3 @@
-import selection_sort as sort
-print(sort.selection_sort([4,-2,3,-1,5]))
-print(sort.selection_sort_key([4,-2,3,-1,5], key=abs))# 절대값을 기준으로 정렬
+import selection_sort as sel_sort
+import insertion_sort as ins_sort
+print(ins_sort.insertion_sort([4,5,3,7]))
